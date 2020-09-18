@@ -1,0 +1,206 @@
+
+
+
+.click-content{
+  display: contents;
+}
+
+.center-block {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+.img-profile {
+  border-radius: 24px;
+  position:relative;
+  width:20%;
+
+}
+
+
+.vert-align {
+  float: none;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: -4px;
+  margin-top: 30px;
+}
+
+.centered, .headshot, .hor-align {
+  text-align: center;
+}
+.col-xs-12 {
+  width: 100%;
+}
+
+
+
+
+@media screen and (max-width : 1000px)
+{
+  #text,#text1
+  {
+    font-size:18px;
+  }
+}
+@media screen and (min-width : 1000px)
+{
+  #text,#text1
+  {
+    font-size:24px;
+  }
+}
+
+
+@media screen and (max-width : 680px)
+{
+  #myName, #home, #projects, #news
+  {
+    font-size:16px;
+  }
+}
+@media screen and (min-width : 680px)
+{
+  #myName, #home, #projects, #news
+  {
+    font-size:18px;
+  }
+}
+
+@media screen and (max-width : 800px)
+{
+  #howdy
+  {
+    font-size:16px;
+  }
+}
+@media screen and (min-width : 800px)
+{
+  #howdy
+  {
+    font-size:32px;
+  }
+}
+
+
+
+@media screen and (max-width : 800px)
+{
+  #myName
+  {
+    font-size:32px;
+  }
+}
+@media screen and (max-width : 500px)
+{
+  #myName
+  {
+    font-size:24px;
+  }
+}
+@media screen and (min-width : 800px)
+{
+  #myName
+  {
+    font-size:55px;
+  }
+}
+
+
+@media screen and (max-width : 800px)
+{
+  #school
+  {
+    font-size:9px;
+  }
+}
+@media screen and (min-width : 800px)
+{
+  #school
+  {
+    font-size:18px;
+  }
+}
+
+@media screen and (max-width : 680px)
+{
+  #git, #link-in, #resume
+  {
+    font-size:12px;
+  }
+}
+@media screen and (min-width : 680px)
+{
+  #git, #link-in, #resume
+  {
+    font-size:18px;
+  }
+}
+
+
+.center {text-align: center; display: inline-block; vertical-align: middle;position: absolute; top: 0; left: 0; right: 0; left: 0; text-align: center; border: 1px solid #ccc; height: 100%; width: 100%; vertical-align: middle;}
+
+
+
+@media screen and (max-height : 600px)
+{
+  #pp,#text
+  {
+    top:calc(30% + 200px);;
+  }
+}
+@media screen and (min-height : 600px)
+{
+  #pp,#text
+  {
+    top:calc(30% + 100px);
+  }
+}
+
+
+
+@media screen and (max-width : 1000px)
+{
+  #img-1,#img-2,#img-3,#img-4,#img-5,#img-6,#img-7,#img-8,#img-9,#img-10,#img-11,#img-12,#img-13,#img-14,#img-15,#img-16,#img-17,#img-18,#img-19
+  {
+    width:300px;
+  }
+}
+@media screen and (min-width : 1000px)
+{
+  #img-1,#img-2,#img-3,#img-4,#img-5,#img-6,#img-7,#img-8,#img-9,#img-10,#img-11,#img-12,#img-13,#img-14,#img-15,#img-16,#img-17,#img-18,#img-19
+  {
+    width:400px;
+  }
+}
+
+
+#wrapper {
+    background:#000;
+    overflow: hidden
+}
+#c1 {
+    float:left;
+    background:red;
+}
+#c2 {
+    background:green;
+    float: right
+}
+
+
+
+.navbar.navbar-default {
+    background-color: #99ccff;
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.navbar.navbar-default .navbar-collapse {
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}

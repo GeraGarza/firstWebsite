@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Jose Garza</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+<link rel="stylesheet" href="styles.css">
+
+<style>
+  body {font-family: "Lato", sans-serif}
+  .mySlides {display: none}
+</style>
+<body>
+
+  <!-- Navbar -->
+  <div class="w3-top">
+    <div class="w3-bar w3-white w3-card">
+      <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+      <a href="index.html" class="w3-bar-item w3-button w3-padding-large" style="font-size:18px">Jose <b>Garza</b></a>
+      <div class="w3-right ">
+
+        <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small" id="home">Home</a>
+        <a href="projects.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small" id="projects">Projects</a>
+        <a href="AboutMe.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small" id="news">About Me</a>
+
+
+        <div class="w3-dropdown-hover w3-hide-small">
+          <button class="w3-padding-large w3-button" title="More">MORE <i class="fa fa-caret-down"></i></button>
+          <div class="w3-dropdown-content w3-bar-block w3-card-4">
+            <a href="Service.html" class="w3-bar-item w3-button">Service</a>
+            <a href="resume.html" class="w3-bar-item w3-button">Resume</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+  <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+    <a href="index.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Home</a>
+    <a href="projects.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Projects</a>
+    <a href="AboutMe.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">About Me</a>
+    <a href="Service.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Service</a>
+    <a href="resume.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Resume</a>
+
+  </div>
+
+
+  <!-- First Grid: Logo & About -->
+  <div class="w3-row" style="padding-top: 50px;">
+    <div class="w3-half w3-light-grey w3-container w3-center" style="height:600px">
+      <div class="w3-padding-64">
+        <h1>FLASH</h1>
+        <p class="w3-opacity">Freshman Leaders Advancing in Service and Honors</p>
+
+        <div class="w3-row">
+          <div class="w3-half">
+            <img src="pictures/flash.png" style="width:100%">
+          </div>
+          <div class="w3-half">
+            <p><b>Nursing Home</b>
+            </p>
+            <p>
+              Went to nursing homes and assisted with certian activites; such as work-outs, conversing and games
+            </p>
+
+            <hr>
+            <p><b>Aggie Dance Marathon</b>
+            </p>
+            <p>
+              Danced to help raise money for the McLane Children's Medical Center in Temple, TX. Supporting Miracle Network Children's Hospitals
+            </p>
+
+            <hr>
+
+            <p><b>Adopt a Highway</b>
+            </p>
+            <p>
+              Helped clean and maintain the Flash Street at Texas A&M
+            </p>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+    <div class="w3-half w3-dark-grey w3-container" style="height:600px">
+      <div class="w3-padding-64 w3-center">
+        <h1>On Campus</h1>
+        <img src="pictures/event.png" class="w3-margin w3-circle" alt="Person" style="width:50%">
+        <div class="w3-left-align w3-padding-large">
+          <p><b>Big Event</b>
+          </p>
+          <p>
+            Helped residents in the Bryan and College Station area with yard work, painting, and community building. Along with over 20,000 fellow Aggies.
+
+            </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-row">
+    <div class="w3-half w3-dark-grey w3-container w3-center" style="height:600px">
+      <div class="w3-padding-64">
+
+
+      </div>
+    </div>
+    <div class="w3-half w3-light-grey w3-container" style="height:600px">
+      <div class="w3-padding-64 w3-padding-large w3-center">
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="w3-center w3-black w3-padding-16">
+    <p> © Jose Gerardo Garza 2016-2020
+    </a></p>
+  </footer>
+
+  <script>
+    // Automatic Slideshow - change image every 4 seconds
+    var myIndex = 0;
+
+    // Used to toggle the menu on small screens when clicking on the menu button
+    function myFunction() {
+      var x = document.getElementById("navDemo");
+      if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+      } else {
+        x.className = x.className.replace(" w3-show", "");
+      }
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    var modal = document.getElementById('ticketModal');
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+  </script>
+
+</body>
+</html>
